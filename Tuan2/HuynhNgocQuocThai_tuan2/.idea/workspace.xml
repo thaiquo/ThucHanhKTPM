@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="507fcda3-e1e7-4222-b6c3-2b8ea63498cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/java/iuh/fit/huynhngocquocthai_tuan01/JwtDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/java/iuh/fit/huynhngocquocthai_tuan01/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/java/iuh/fit/huynhngocquocthai_tuan01/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/java/iuh/fit/huynhngocquocthai_tuan01/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/resources/public.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HuynhNgocQuocThai_tuan01/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="38e9Th6SyMa6vLcjMNBDij9SwAz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.HuynhNgocQuocThaiTuan2Application.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.Main" />
+      <module name="HuynhNgocQuocThai_tuan2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuynhNgocQuocThaiTuan2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="HuynhNgocQuocThai_tuan2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iuh.fit.huynhngocquocthai_tuan2.HuynhNgocQuocThaiTuan2Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iuh.fit.huynhngocquocthai_tuan2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.HuynhNgocQuocThaiTuan2Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="507fcda3-e1e7-4222-b6c3-2b8ea63498cb" name="Changes" comment="" />
+      <created>1769149182346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769149182346</updated>
+      <workItem from="1769149183624" duration="4731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

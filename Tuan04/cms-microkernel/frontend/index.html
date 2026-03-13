@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CMS</title>
+</head>
+
+<body>
+
+<h2>CMS Posts</h2>
+
+<input id="title" placeholder="Title">
+<input id="content" placeholder="Content">
+<button onclick="addPost()">Add</button>
+
+<h3>Post List</h3>
+<ul id="postList"></ul>
+
+<script>
+
+const API = "http://localhost:3000/posts"
+
+async function loadPosts(){
+
+const res = await fetch(API)
+const data = await res.json()
+
+const list=document.getElementById("postList")
+list.innerHTML=""
+
+data.forEach(p=>{
+
+list.innerHTML+=`
+<li>
+<b>${p.title}</b> - ${p.content}
+
+<button onclick="editPost('${p._id}','${p.title}','${p.content}')">
+Edit
+</button>
+
+<button onclick="deletePost('${p._id}')">
+Delete
+</button>
+
+</li>
+`
+
+})
+
+}
+
+async function addPost(){
+
+const title=document.getElementById("title").value
+const content=document.getElementById("content").value
+
+await fetch(API,{
+method:"POST",
+headers:{
+"Content-Type":"application/json"
+},
+body:JSON.stringify({title,content})
+})
+
+loadPosts()
+
+}
+
+async function deletePost(id){
+
+await fetch(API+"/"+id,{
+method:"DELETE"
+})
+
+loadPosts()
+
+}
+
+async function editPost(id,title,content){
+
+const newTitle=prompt("Edit title",title)
+const newContent=prompt("Edit content",content)
+
+await fetch(API+"/"+id,{
+method:"PUT",
+headers:{
+"Content-Type":"application/json"
+},
+body:JSON.stringify({
+title:newTitle,
+content:newContent
+})
+})
+
+loadPosts()
+
+}
+
+loadPosts()
+
+</script>
+
+</body>
+</html>

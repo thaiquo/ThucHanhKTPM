@@ -1,0 +1,43 @@
+services:
+  node:
+    image: node:18
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: sh -c "npm init -y && npm install express && node server.js"
+    ports:
+      - "3000:3000"
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"      
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress
+
+  wordpress:
+    image: wordpress
+    ports:
+      - "8082:80"
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root      
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  mongo-express:
+    image: mongo-express
+    ports:
+      - "8084:8081"
+    environment:
+     ME_CONFIG_MONGODB_SERVER: mongo
+     ME_CONFIG_BASICAUTH_USERNAME: admin
+     ME_CONFIG_BASICAUTH_PASSWORD: pass  
